@@ -1,0 +1,16 @@
+[project]
+name = "swath-viewer"
+version = "0.1.0"
+description = "Plot a satellite's nadir swath with a time slider"
+requires-python = ">=3.12"
+dependencies = [
+    "geopandas>=1.1.1",
+    "httpx>=0.28.1",
+    "keplergl>=0.3.7",
+    "numpy>=2.3.5",
+    "plotly>=7.1.0",
+    "pyproj>=3.7.2",
+    "shapely>=2.1.2",
+    "skyfield>=1.53",
+    "typer>=0.20.0",
+]
